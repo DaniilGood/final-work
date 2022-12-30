@@ -40,4 +40,6 @@ void PrintArray(string[] col)
 string[] array = {"ffg", "lol", "gg wp","hamuda habibi", "UwU","tgt", "gg"};
 int leght = 3;
 int count = NumRightStrings(array, leght);
+PrintArray(array);
+Console.Write(" -> ");
 PrintArray(RecordRightStrings(array, count, leght));
